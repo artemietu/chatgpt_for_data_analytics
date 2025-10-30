@@ -9,7 +9,8 @@ A no‑code, reproducible walkthrough showing how to use ChatGPT to explore a re
 ## Repository Structure
 
 ```
-.
+chatgpt_for_data_analytics/
+│
 ├── data/
 │   └── archive.zip                 # raw dataset (contains gsearch_jobs.csv)
 ├── images/
