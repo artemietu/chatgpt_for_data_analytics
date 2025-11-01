@@ -41,7 +41,7 @@ The data arrived in a compressed file, **`data/archive.zip`**, which contains **
 2) **Descriptive Statistics** — per‑column summaries (numeric + non‑numeric).  
 3) **Exploratory Data Analysis (EDA)** — titles, companies, locations, sources.  
 4) **Data Cleaning** — trim leading spaces in `location` (e.g., “␣Oklahoma City, OK” → “Oklahoma City, OK”), with an evidence table.  
-5) **Visualising Salary Data** — Distribution of `salary_yearly`, top 10 job platforms by average yearly salary, and top 10 most common platforms with yearly salary — average yearly salary  
+5) **Visualising Salary Data** — distribution of `salary_yearly`, top 10 job platforms by average yearly salary, and top 10 most common platforms with yearly salary — average yearly salary  
 6) **Predicting Yearly Salary:**
 - Context Visuals: top 10 most common job Titles — average yearly salary and top 10 most Common Locations (cleaned) — average yearly salary
 - Model Suggestion And Selection: **Random Forest** on one‑hot encoded `title`, `job_platform`, `location_clean` → target `salary_yearly`
